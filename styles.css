@@ -1,0 +1,35 @@
+body {
+    background-color: gray;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+form {
+    display: inline-block;
+    text-align: left;
+}
+input {
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+p {
+    font-size: 20px;
+}
+label {
+    font-size: 20px;
+}
+button {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#result {
+    margin-top: 20px;
+}
