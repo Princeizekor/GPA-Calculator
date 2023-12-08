@@ -1,12 +1,12 @@
 export function calculateGPA(grades) {
-    const numCourses = grades.length;
+    const totalCreditUnit = grades.length;
 
     let totalGradePoints = 0;
 
-    for (let i = 0; i < numCourses; i++) {
+    for (let i = 0; i < totalCreditUnit; i++) {
         totalGradePoints += grades[i];
     }
 
-    const gpa = totalGradePoints / numCourses;
+    const gpa = totalGradePoints / totalCreditUnit;
     return gpa.toFixed(2);
 }

@@ -1,9 +1,14 @@
 import { getFormData } from './form.js';
 import { calculateGPA } from './calculator.js';
 
-function updateResult(gpa) {
+// function updateResult(gpa) {
+//     const resultDiv = document.getElementById('result');
+//     resultDiv.innerHTML = `<p>Your GPA is: ${gpa}</p>`;
+// }
+function updateResult(gpa, sumOfGrades) {
     const resultDiv = document.getElementById('result');
     resultDiv.innerHTML = `<p>Your GPA is: ${gpa}</p>`;
+    // resultDiv.innerHTML += `<p>Sum of Grades: ${sumOfGrades}</p>`;
 }
 
 function calculateGPAAndDisplay() {
